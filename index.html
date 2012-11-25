@@ -1,0 +1,429 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Introducción a Phonegap</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link href="css/impress.css" rel="stylesheet" />
+         <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+         <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+
+
+
+    <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+    </head>
+   
+   
+    <body class="impress-not-supported" >
+    	<div class="fallback-message">
+    		<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of 			this presentation.</p>
+    		<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+		</div>
+
+    	<div id="impress">	<!-- Envoltura principal donde va a estar toda la presentacion -->
+        
+        	<div class="step slide present active" id="bored"   data-x="-100" data-y="0" data-scale="1">
+       			<img  src="img/phoneGap.gif"  width="700" height="530"  />
+                <p id="titulo">José Iván Santos González</p>
+                
+    		</div>
+            
+        
+        	<div id="title" class="step" data-x="100" data-y="0" data-scale="4">
+      		    <h1>¿Qué es PHONEGAP?</h1>
+                <h4><b>Características</b></h1>
+                <ul>
+    				<li>Framework</li>
+                    <li>Gratuito</li>
+                    <li>Abierto</li>
+                    <li>Apache cordova </li>
+                    <li>Creación de aplicaciones nativas para móviles </li>
+				</ul>
+				<img id="html5"  src="img/html5.png"  width="70" height="330"  />
+				<img id="flecha"  src="img/flecha.png"  width="50" height="50"  />
+                <img id="phone"  src="img/phone.png"  width="150" height="100"  />
+                <img id="flecha1"  src="img/flecha.png"  width="50" height="50"  />
+                <img id="sos"  src="img/moviles.png"  width="250" height="200"  />
+    		</div>
+        		
+            
+            <div  class="step" id="funcionamiento" data-x="1500" data-y="1500" data-z="-5000" data-scale="1">
+            	<h1> ¿ Cómo funciona PHONEGAP ?</h1>
+            	<img id="func"  src="img/func.png"  width="350" height="200"  />
+                <p> Phonegap nos proporciona una <b>API</b> que nos permite acceder a las funcionalidades nativas de los dispositivos móviles utlizando <b>javascript</b> </p>
+            </div>
+            
+            
+            
+            <div  class="step" id="API" data-x="1500" data-y="5500" data-z="-5000" data-scale="4" data-rotate-y="45" data-rotate-z="45">
+            	<h1> Funcionalidades de la API de PHONEGAP</h1>
+                <img id="api"  src="img/api.png"  width="800" height="600" />
+            </div>
+            
+            
+             <div  class="step" id="clienteservidor" data-x="1000" data-y="3000" data-z="-5000" data-scale="1" data-rotate-y="145">
+            	<h1> Aplicaciones cliente servidor</h1>
+                <ul>
+    				<li>La aplicacion cliente de PhoneGap se comunica con una aplicación en el servidor para recibir/enviar datos.</li>
+                    <li>El servidor suele ser un servidor web que sirve una aplicacion escrita en un lenguajes como Java, PHP, Ruby,etc…</li>
+                    <li>La base de datos es gestionada a traves de una aplicación en el servidor. La comunicacion con el servidor se suele basar en peticiones HTTP estandar para contenido HTML, como REST, XML, JSON, SOAP.</li>
+                    <li>Serian exactamente las misma técnicas que utilizarias en una aplicación basada en AJAX.</li>
+				</ul>
+                <img id="cliserv"  src="img/clienteservidor.png"  width="400" height="200" />
+            </div>
+            
+            
+            
+            <div  class="step" id="Arquitectura" data-x="-8000" data-y="6000" data-z="-600" data-scale="1" data-rotate-y="145" >
+            	<h1> Arquitectura de la aplicación</h1>
+                <ul>
+    				<li>Modelo de página única</li>
+                    <li>La página permanece cargada en memoria</li>
+                    <li>Los datos se muestran actualizando el DOM HTML</li>
+                    <li>Los datos se guardan desde la aplicacion en el servidor a traves de técnicas AJAX</li>
+                    <li>Las variables se mantienen en memoria a traves de Javascript</li>
+                    <img id="page"  src="img/page.png"  width="300" height="400" />
+				</ul>
+            </div>
+            
+            
+            <div  class="step" id="empaquetado" data-x="-6000" data-y="6000" data-z="-600" data-scale="1" data-rotate-y="145" >
+            	<h1> Empaquetado y distribución</h1>
+                <img id="play"  src="img/play.png"  width="150" height="80" />
+                <img id="ios"  src="img/ios.png"  width="100" height="60" />
+                <img id="windows"  src="img/windows.png"  width="100" height="100" />
+                <img id="amazon"  src="img/amazon.png"  width="70" height="70" />
+                <img id="bb"  src="img/bb.png"  width="100" height="100" />
+                <ul>
+    				<li>APK(Android Package)</li>
+                    <li>IPA (IOS Application Archive)</li>
+                    <li>XAP (eXtensible Application Package)</li>
+                    <li>otros</li>
+				</ul>
+            </div>
+            
+            
+            
+            <div  class="step" id="Versiones" data-x="-6000" data-y="-0000" data-z="5000" data-scale="5" data-rotate-y="145">
+            	<h1>Versiones</h1>
+                <img id="phonegap"  src="img/phonegap.png"  width="300" height="300" />
+                <img id="phonegapbuild"  src="img/phonegapbuild.png"  width="500" height="300" />
+                <h4>Adobe Phone<b>Gap</b> Build</h4>
+                <button class="punch" id="Phonegap"> <a href="#">Phone<b>Gap</b></a> </button>
+                <button class="punch" id="PhonegapBuild"> <a href="#Inicialización">Phone<b>Gap</b> Build</a> </button>
+            </div>
+            
+            
+            
+            
+            <div  class="step" id="RequisitosAndroid" data-x="-16000" data-y="-0000" data-z="-25000" data-scale="5" data-rotate-y="145">
+            	<h1>Requisitos Android</h1>
+                <img id="android"  src="img/android.png"  width="400" height="300" />
+                <ul>
+    				<li>Eclipse 3.4+</li>
+                    <li>Android SDK</li>
+                    <li>Eclipse ADT plugin</li>
+                    <li>Última version de apache cordova</li>
+				</ul>
+            </div>
+            
+            
+            
+            <div  class="step" id="InstalaciónAndroid" data-x="-20000" data-y="5000" data-z="-25000" data-scale="5" >
+            	<h1>Instalación Android</h1>
+                <img id="android1"  src="img/android.png"  width="400" height="300" />
+                <ul>
+    				<li>Creamos un proyecto android con el wizard de eclipse</li>
+                    <li>Añadimos al proyecto los directorios /libs y assets/www</li>
+                    <li>Copiar cordova-x.x.x.jar al directorio libs (desde el directorio donde instalamos el SDK de Phonegap)</li>
+                    <li>Copiamos el archivo cordova-x.x.x.js al directorio assets/www</li>
+                    <li>Actualizamos el proyecto eclipse para que reconstruya el Build path e incluya la nueva librería</li>
+				</ul>
+            </div>
+           
+            
+            
+            
+            
+                
+                
+                
+            <div id="UsoAndroid" class="step"  data-x="-20000" data-y="10000" data-z="-25000" data-scale="5" data-rotate-y="145" >
+            	<h1>Uso en Android</h1>
+                <img id="android1"  src="img/android.png"  width="400" height="300" />
+    			<p id="hello">Ejemplo de <b class="positioning"> Hello </b> <b class="rotating">World </b><p>
+                <h4><b>En la actividad creada por el wizard de Eclipse:</b></h4>
+                <ol>
+    				<li>Añadimos <b>import org.apache.cordova.*;</b> a los import</li>
+                    <li>Cambiamos la clase de la que hereda la atividad de <b>Activity a DroidGap</b></li>
+                    <li> Reemplazamos<b>setContentView()</b> por <b>super.loadUrl(“file:///android_asset/www/index.html”);</b></li>
+				</ol>            
+            </div>
+            
+            
+            
+            <div id="UsoAndroid1" class="step"  data-x="-20000" data-y="17000" data-z="-25000" data-scale="5" >
+            	<h1>Uso en Android</h1>
+                <img id="android1"  src="img/android.png"  width="400" height="300" />
+                <h4><b>Añadimos lo siguiente a AndroidManifest.xml</b></h4>
+                <img id="Manifest"  src="img/AM.png"  width="800" height="350" />  
+                <img id="Manifest2"  src="img/AM1.png"  width="800" height="50" /> 
+    				
+            </div>
+            
+            
+            <div id="UsoAndroid2" class="step"  data-x="-20000" data-y="17000" data-z="-28000" data-scale="1" >
+                <img id="Manifest1"  src="img/AM.png"  width="1000" height="550" />  
+    			<img id="Manifest21"  src="img/AM1.png"  width="1000" height="50" /> 
+            </div>
+                
+            <div id="UsoAndroid1" class="step"  data-x="-20000" data-y="17000" data-z="-25000" data-scale="5" >
+            	<h1>Uso en Android</h1>
+                <img id="android1"  src="img/android.png"  width="400" height="300" />
+                <h4><b>Añadimos lo siguiente a AndroidManifest.xml</b></h4>
+                <img id="Manifest"  src="img/AM.png"  width="800" height="350" />  
+                <img id="Manifest2"  src="img/AM1.png"  width="800" height="50" /> 
+    				
+            </div>
+            
+            <div id="UsoAndroid3" class="step"  data-x="-20000" data-y="20000" data-z="-25000" data-scale="1" data-rotate-y="145" >
+	            <h1>Uso en Android</h1>
+                <img id="android1"  src="img/android.png"  width="400" height="300" /> 
+    			<h4><b>Creamos un archivo index.html en assets/www</b></h4> 
+                <img id="html"  src="img/html.png"  width="800" height="350" />  
+            </div>
+            
+            
+            <div id="UsoAndroid4" class="step"  data-x="-20000" data-y="22000" data-z="-25000" data-scale="1">
+	            <h1>Uso en Android</h1>
+                <img id="android1"  src="img/android.png"  width="400" height="300" /> 
+    			<h4><b>Creamos el archivo res/xml/plugins.xml con este contenido:  </b></h4> 
+                <img id="plugins"  src="img/plugins.png"  width="800" height="350" />  
+            </div>
+            
+            
+            <div id="Resultado" class="step"  data-x="-20000" data-y="24000" data-z="-25000" data-scale="1" data-rotate-y="145">
+	            <h1> Resultado </h1>
+                <img id="android1"  src="img/android.png"  width="400" height="300" /> 
+                <img id="llama"  src="img/llama-loca.png"  width="400" height="600" /> 
+    			
+            </div>
+            
+            
+            
+            <div  class="step" id="RequisitosIOS" data-x="-1000" data-y="-0000" data-z="-25000" data-scale="5" data-rotate-y="145">
+            	<h1>Requisitos IOS</h1>
+                <img id="IOS"  src="img/ios.png"  width="250" height="120" />
+                <ul>
+    				<li>Xcode 4.3+</li>
+                    <li>Xcode Command Line Tools</li>
+                    <li>Equipo con Mac OS X Lion o superior</li>
+                    <li>Dispositivo Apple IOS (iphone,iPad,iPod Touch)</li>
+                    <li>Certificado de desarrollador IOS</li>
+				</ul>
+            </div>
+            
+            
+            
+            <div  class="step" id="PhonegapBuild" data-x="3000" data-y="-5000" data-z="-25000" data-scale="5" data-rotate-y="145">
+            	<h1>PhoneGap Build</h1>
+                <ul>
+                	<li>Aplicación web propiedad de <b>Adobe</b></li>
+                    <li>Compilación en la nube</li>
+                    <img id="PGB"  src="img/PGB.png"  width="600" height="400" />
+				</ul>
+            </div>
+            
+
+            <div  class="step" id="PhonegapBuildRegistro" data-x="7000" data-y="-9000" data-z="-25000" data-scale="3" data-rotate-y="145">
+            	<h1>PhoneGap Build. Registro</h1>
+                    <img id="sign"  src="img/sign.png"  width="1000" height="600" />
+            </div>
+            
+                        
+            
+            <div  class="step" id="PhonegapBuildPrice" data-x="10000" data-y="-12000" data-z="-35000" data-scale="5" >
+            	<h1>PhoneGap Build. Pricing</h1>
+                    <img id="price"  src="img/pricing.png"  width="1000" height="600" />
+            </div>
+            
+
+
+            <div  class="step" id="PhonegapBuild1" data-x="12000" data-y="-18000" data-z="-25000" data-scale="5" >
+            	<h1>PhoneGap Build. Upload</h1>
+                    <img id="upload"  src="img/upload.png"  width="1000" height="600" />
+            </div>                             
+            
+            
+            
+            
+            
+
+    		<div id="Construccion" class="step" data-x="10000" data-y="4100" data-rotate="180" data-scale="6">
+       		  <p><b>Construcción básica de una aplicación</b> </p>
+                <ul>
+    				<li> <button class="punch"> <a href="#Importación">Importacion</a> </button></li>
+                    <li> <button class="punch"> <a href="#Inicialización">Inicialización</a> </button></li>
+                    <li> <button class="punch"> <a href="#Ejecución">Ejecución</a></li>
+				</ul>
+    		</div>
+   
+            
+            <div id="ing" class="step" data-x="3500" data-y="-7050" data-rotate="270" data-scale="6">
+        		<p><b class="positioning">Conclusión</b>, <b class="rotating">final</b></p>
+   			 </div>
+             
+             
+             <div  class="step" data-x="-8700" data-y="-450" data-rotate="470" data-scale="4">
+        		<p><b class="positioning">FIN</b></p>
+   			 </div>
+             
+             
+             <div  class="step" data-x="-10100" data-y="700" data-rotate="470" data-scale="4">
+        		<p><b class="rotating">José Iván Santos González</b><br/></p>
+                <p>Sistemas y Tecnologías Web</p>
+   			 </div>
+             
+             
+                      
+        
+            
+           <div id="Importación" class="step" data-x="20000" data-y="10000" data-z="-100000"   data-rotate="180" data-scale="2">
+           		
+    			<button class="punch"> <a href="#Construccion">Importacion</a> </button>
+                <ul>
+    				<li> import pygame</li>
+                    <li> import pygame.locals import*</li>
+                    <li> import sys</li>
+				</ul>				                	
+   			</div>
+            
+            
+            
+            <div id="Inicialización" class="step" data-x="6000" data-y="10000" data-z="-100000"   data-rotate="180"  data-scale="2">
+           		
+    			<button class="punch"> <a href="#Construccion">Inicialización</a> </button>
+                <ul>
+    				<li> pygame.init()</li>
+                    <li> pygame.display.set_mode((640,480),0,32)</li>
+				</ul>				                	
+   			</div>
+            
+            
+
+            
+            
+          <div id ="Ejecución" class="step" data-x="-10000" data-y="10000" data-z="-100000"   data-rotate="180"" data-scale="2">
+           		
+    			<button class="punch"> <a href="#Construccion">Ejecución</a> </button>
+                <ul class= "lala">
+    				<li> while true:</li>
+                    <li><pre>   ...</pre></li><p>
+                    <li><pre>   for event in pygame.event.get()</pre></li>
+                    <li><pre>      ...</pre></li>
+                    <li><pre>      if event.type == QUIT:</pre></li>
+                    <li><pre>          pygame.quit()</pre></li>
+                    <li><pre>          sys.exit()</pre></li>
+				</ul>				                	
+   			</div>
+		
+        
+    
+    
+    
+    
+    
+          <div id="Juegos" class="step" data-x="-20000" data-y="30000" data-z="-1000"   data-rotate="360"  data-scale="1">
+           		
+    			<button id = "juego_boton" class="punch"> <a href="#ejemplos">Juegos</a> </button>
+                
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="500" height="500" id="FLVPlayer">
+                  <param name="movie" value="FLVPlayer_Progressive.swf" />
+                  <param name="quality" value="high">
+                  <param name="wmode" value="opaque">
+                  <param name="scale" value="noscale">
+                  <param name="salign" value="lt">
+                  <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Halo_Skin_3&amp;streamName=videos/juegos&amp;autoPlay=true&amp;autoRewind=true" />
+                  <param name="swfversion" value="8,0,0,0">
+                  <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
+                  <param name="expressinstall" value="Scripts/expressInstall.swf">
+                  <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
+                  <!--[if !IE]>-->
+                  <object type="application/x-shockwave-flash" data="FLVPlayer_Progressive.swf" width="722" height="563">
+                    <!--<![endif]-->
+                    <param name="quality" value="high">
+                    <param name="wmode" value="opaque">
+                    <param name="scale" value="noscale">
+                    <param name="salign" value="lt">
+                    <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Halo_Skin_3&amp;streamName=videos/juegos&amp;autoPlay=true&amp;autoRewind=true" />
+                    <param name="swfversion" value="8,0,0,0">
+                    <param name="expressinstall" value="Scripts/expressInstall.swf">
+                    <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
+                    <div>
+                      <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
+                      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" /></a></p>
+                    </div>
+                    <!--[if !IE]>-->
+                  </object>
+                  <!--<![endif]-->
+            </object>
+          </div>
+          
+          
+            
+            
+          <div id="Animaciones" class="step" data-x="-20000" data-y="20000" data-z="-2000"   data-rotate="180"  data-scale="1">
+           		
+    			<button id = "ani_boton" class="punch"> <a href="#ejemplos">Animaciones</a> </button>
+                
+    		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="700" height="560" id="FLVPlayer1">
+	    		  <param name="movie" value="FLVPlayer_Progressive.swf" />
+	    		  <param name="quality" value="high">
+	    		  <param name="wmode" value="opaque">
+	    		  <param name="scale" value="noscale">
+	    		  <param name="salign" value="lt">
+	    		  <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_1&amp;streamName=videos/animaciones&amp;autoPlay=true&amp;autoRewind=true" />
+	    		  <param name="swfversion" value="8,0,0,0">
+	    		  <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
+	    		  <param name="expressinstall" value="Scripts/expressInstall.swf">
+	    		  <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
+	    		  <!--[if !IE]>-->
+	    		  <object type="application/x-shockwave-flash" data="FLVPlayer_Progressive.swf" width="700" height="560">
+	    		    <!--<![endif]-->
+	    		    <param name="quality" value="high">
+	    		    <param name="wmode" value="opaque">
+	    		    <param name="scale" value="noscale">
+	    		    <param name="salign" value="lt">
+	    		    <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_1&amp;streamName=videos/animaciones&amp;autoPlay=true&amp;autoRewind=true" />
+	    		    <param name="swfversion" value="8,0,0,0">
+	    		    <param name="expressinstall" value="Scripts/expressInstall.swf">
+	    		    <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
+	    		    <div>
+	    		      <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
+	    		      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" /></a></p>
+    		        </div>
+	    		    <!--[if !IE]>-->
+   		      </object>
+	    		  <!--<![endif]-->
+   		    </object>
+          </div>
+            
+            
+            
+            
+    </div>
+            
+                
+	<script type="text/javascript" src="js/impress.js"></script>
+    <script>
+impress().init();
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FLVPlayer");
+swfobject.registerObject("FLVPlayer1");
+swfobject.registerObject("FLVPlayer");
+swfobject.registerObject("FLVPlayer1");
+    </script>
+    </body>
+</html>
+
